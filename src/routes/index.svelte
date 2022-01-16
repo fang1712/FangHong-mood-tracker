@@ -1,7 +1,6 @@
 <script>
     import supabase from '$lib/db';
-import Login from '$lib/login.svelte';
-import Signup from '$lib/signup.svelte';
+
     
 
     async function logout() {
@@ -17,5 +16,3 @@ import Signup from '$lib/signup.svelte';
     <button class="btn btn-secondary" on:click={logout}>Logout</button>
 </section>	
 
-<Signup/>
-<Login/>
